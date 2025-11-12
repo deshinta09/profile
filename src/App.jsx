@@ -1,9 +1,14 @@
-import { useState } from "react";
+import MainLayout from "./layout/MainLayout";
+import LandingPage from "./pages/LandingPage";
+import Products from "./pages/Products";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <h1 className="text-blue-400">Hello Word</h1>;
+  return (
+    <MainLayout>
+      <LandingPage />
+      <Products />
+    </MainLayout>
+  );
 }
 
 export default App;
