@@ -1,5 +1,5 @@
 export default function MainLayout({ children }) {
-  const listMenu = ["Home", "Products", "Facility", "Review", "Contack"];
+  const listMenu = ["Home", "Products", "Facility", "Review", "Contact"];
   return (
     <div>
       <div className="w-full relative">
